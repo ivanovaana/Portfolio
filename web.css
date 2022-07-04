@@ -1,0 +1,147 @@
+
+body {
+    background-color: white;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("DSC_6095 Ана Иванова b&w.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-attachment: fixed;
+}
+
+.header {
+    position: relative;
+    margin-left: 600px;
+    margin-top: 150px;
+    line-height: 0.5;
+}
+
+.header h1 {
+    font: bolder;
+    font-size: 6em;
+}
+
+.header h3 {
+    font-size: 2em;
+}
+
+.about {
+    margin-left: 530px;
+    font-size: 2em;
+    color: gray;
+    margin-top: 150px;
+}
+
+.about fieldset {
+    width: 700px;
+    border-radius: 0.5em;
+}
+
+.about fieldset legend {
+    color: black;
+    font-weight: bolder;
+}
+
+.about fieldset label {
+    font-size: 0.6em;
+    color: black;
+}
+
+span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.aboutme {
+    font-size: 0.5em;
+    color: black;
+    text-align: justify;
+    width: 700px;
+}
+
+.skills {
+    margin-left: 530px;
+    font-size: 2em;
+    color: gray;
+}
+
+hr {
+    margin-left: 530px;
+    width: 750px;
+}
+
+section {
+    display: inline-block;
+    font-size: 0.6em;
+    color: black;
+    inline-size: 300px;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+.gallery {
+    margin-left: 530px;
+    font-size: 2em;
+    color: gray;
+}
+
+.gallery section {
+    inline-size: 340px;
+}
+
+.contact {
+    margin-left: 530px;
+    font-size: 2em;
+    color: gray;
+}
+
+.contact a { 
+    text-decoration: none;
+    color: black;
+}
+
+.color {
+    color: black;
+    font-size: 0.7em;
+}
+.social {
+    margin-left: 830px;
+    position: center;
+}
+
+.menu {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 1315px;
+    height: 100%;
+    width: 219px;
+    position:fixed;
+    top: 0;
+}
+
+.menu li {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(230, 178, 230);
+    text-decoration: none;
+}
+
+.menu ul {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
